@@ -1,4 +1,4 @@
-﻿using Microsoft.Xna.Framework;
+﻿/*using Microsoft.Xna.Framework;
 using System;
 using System.ComponentModel;
 using Terraria;
@@ -28,3 +28,4 @@ namespace StealthOnly
         public bool FullStealth { get; set; }
     }
 }
+*/

@@ -1,10 +1,12 @@
-﻿using Terraria.ModLoader;
+﻿using Terraria.GameInput;
+using Terraria.ModLoader;
+using Terraria;
 
 namespace StealthOnly
 
 {
     public class StealthOnlyPlayer : ModSystem
-    {
+    {/*
         public override void ProcessTriggers(TriggersSet triggersSet)
         {
 		if (StealthKey.SKey.JustPressed && Main.myPlayer == Player.whoAmI)
@@ -14,6 +16,6 @@ namespace StealthOnly
 			else
 			StealthOnlyConfig.Instance.StealthCon = true;
 		}
-	}
+	}*/
     }
 }

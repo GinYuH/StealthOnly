@@ -10,15 +10,15 @@ namespace StealthOnly
         public override bool CanUseItem(Item item, Player player)
         {
             //Player doesn't have a stealth strike available
-            if (item.CountsAsClass<RogueDamageClass>() && !player.GetModPlayer<CalamityPlayer>().StealthStrikeAvailable() && StealthOnlyConfig.Instance.StealthCon)
+            if (item.CountsAsClass<RogueDamageClass>() && !player.GetModPlayer<CalamityPlayer>().StealthStrikeAvailable())
             {
                 return false;
             }
             //Player has less than full stealth and the full stealth config
-            if (item.CountsAsClass<RogueDamageClass>() && player.GetModPlayer<CalamityPlayer>().rogueStealth < player.GetModPlayer<CalamityPlayer>().rogueStealthMax && StealthOnlyConfig.Instance.FullStealth)
+            /*if (item.CountsAsClass<RogueDamageClass>() && player.GetModPlayer<CalamityPlayer>().rogueStealth < player.GetModPlayer<CalamityPlayer>().rogueStealthMax)
             {
                 return false;
-            }
+            }*/
             return true;
         }
     }
