@@ -1,0 +1,4 @@
+displayName = Calamity Rogue Stealth Strikes Only
+author = YuH
+version = 2.1.1
+modReferences = CalamityMod
