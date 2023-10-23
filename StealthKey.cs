@@ -1,4 +1,4 @@
-﻿/*using Terraria.ModLoader;
+﻿using Terraria.ModLoader;
 
 namespace StealthOnly
 
@@ -17,4 +17,4 @@ namespace StealthOnly
             SKey = null;
         }
     }
-}*/
+}

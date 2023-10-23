@@ -1,1 +1,39 @@
+Mods: {
+	StealthOnly: {
+		StealthOnlyConfig: {
+			DisplayName: Config
 
+			StealthCon: {
+				Label: Enable stealth requirement
+				Tooltip: Causes you to become unable to attack unless you have enough stealth to perform a stealth strike. Accounts for Coin of Deceit and its upgrades
+			}
+
+			FullStealth: {
+				Label: Ignore Coin of Deceit
+				Tooltip: Requires you to have full stealth to attack, ignoring Coin of Deceit and its upgrades. Requires the above config to be enabled.
+			}
+
+			Headers.StealthOnlyHeader: Stealth Requirement Modifiers
+		}
+	}
+}
+
+"Keybinds.Toggle Stealth Lock.DisplayName": Toggle  Stealth  Lock
+
+Configs: {
+	StealthOnlyConfig: {
+		DisplayName: Stealth Only Config
+
+		StealthCon: {
+			Label: "{$Mods.StealthOnly.StealthOnlyConfig.StealthCon.Label}"
+			Tooltip: "{$Mods.StealthOnly.StealthOnlyConfig.StealthCon.Tooltip}"
+		}
+
+		FullStealth: {
+			Label: "{$Mods.StealthOnly.StealthOnlyConfig.FullStealth.Label}"
+			Tooltip: "{$Mods.StealthOnly.StealthOnlyConfig.StealthCon.Tooltip}"
+		}
+	}
+}
+
+StealthOnlyConfig.Headers.StealthOnlyHeader: Stealth Con Header

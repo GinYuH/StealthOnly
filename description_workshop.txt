@@ -3,11 +3,11 @@ Have you ever found yourself having too low of a focus to use Calamity's rogue s
 Well this is the mod for you!
 
 This mod forces the player to only be able to use rogue weapons if the player has enough stealth to perform a stealth strike.
-You will NOT be able to attack if you do not have full stealth (or 75% with Coin of Deceit and 50% with its upgrades)
+Also has a config to ignore the Coin of Deceit and its upgrades for if you want to only use stealth strikes at 100% stealth.
+There's also a hotkey (you have to bind it yourself like all other modded keys) that lets you enable/disable the stealth lock on the fly.
 
 
 Credits:
 Created by YuH
 Old code help by Kawaggy
-
-someone please make a better icon I'm begging
+Mod icon by The Purple Fantum
