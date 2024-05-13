@@ -5,6 +5,8 @@ This mod forces the player to only be able to use rogue weapons if the player ha
 Also has a config to ignore the Coin of Deceit and its upgrades for if you want to only use stealth strikes at 100% stealth.
 There's also a hotkey (you have to bind it yourself like all other modded keys) that lets you enable/disable the stealth lock on the fly.
 
+Discord for support: https://discord.gg/rtq3jRDsrA
+
 Credits:
 Created by YuH
 Old code help by Kawaggy

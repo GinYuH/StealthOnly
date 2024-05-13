@@ -1,4 +1,4 @@
 displayName = Calamity Rogue Stealth Strikes Only
 author = YuH
-version = 2.3
+version = 2.3.1
 modReferences = CalamityMod
